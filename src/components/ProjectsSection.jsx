@@ -38,7 +38,7 @@ const projects = [
     image: "/projects/project3.png",
     Tags: ["MongoDB", "Express", "React", "Node.js", "Full Stack"],
     demoUrl: "https://dobu-martial-arts-gym.vercel.app/landingPage",
-    githubUrl: "https://github.com/zunwutt/dobu-martial-arts-gym",
+    githubUrl: "https://github.com/zwmhone/thinkpad",
   },
 ];
 
