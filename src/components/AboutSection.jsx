@@ -58,7 +58,7 @@ export const AboutSection = () => {
               ))}
             </div>
             <div className="flex flex-col sm:flex-row gap-4 pt-1 justify-center">
-              <a href="#contact" className="cosmic-button">
+              <a href="#contact" className="cosmic-button text-center">
                 Get In Touch
               </a>
             </div>

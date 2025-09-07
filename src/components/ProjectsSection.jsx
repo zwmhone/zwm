@@ -9,7 +9,7 @@ const projects = [
       "A frontend-focused website built with HTML and CSS, featuring an integrated email-sending API for easy contact and communication.",
     image: "/projects/project1.png",
     Tags: ["Html", "CSS", "Javascript", "API", "Frontend"],
-    demoUrl: "https://dobu-martial-arts-gym.vercel.app/landingPage",
+    demoUrl: "https://youtu.be/wEpgV5tdfKE?si=bSc0EgBnBeHqJ55O",
     githubUrl: "https://github.com/zwmhone/Dobu",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       "API",
       "frontend",
     ],
-    demoUrl: " ",
+    demoUrl: "https://youtu.be/W19u5P643Tg?si=uxx0EVJkh5TCDAZr",
     githubUrl: "https://github.com/zwmhone/Jumpstart",
   },
   {
@@ -37,8 +37,8 @@ const projects = [
       "A minimalistic note-taking web application built with the MERN stack for efficient and intuitive note management.",
     image: "/projects/project3.png",
     Tags: ["MongoDB", "Express", "React", "Node.js", "Full Stack"],
-    demoUrl: "https://dobu-martial-arts-gym.vercel.app/landingPage",
-    githubUrl: "https://github.com/zunwutt/dobu-martial-arts-gym",
+    demoUrl: "https://youtu.be/oOQYn39ziEU?si=evkYan4X15VrZqJJ",
+    githubUrl: "https://github.com/zwmhone/thinkpad",
   },
 ];
 
@@ -88,6 +88,7 @@ export const ProjectsSection = () => {
                     </a>
                     <a
                       href={project.githubUrl}
+                      target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />

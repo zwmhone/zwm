@@ -10,7 +10,7 @@ export const Footer = () => {
         <ArrowUp size={20} />
       </a>
       <p className="text-sm text-muted-foreground text-center">
-        &copy; {new Date().getFullYear()} zwm.co, All Rights Reserved
+        &copy; {new Date().getFullYear()} All Rights Reserved
       </p>
     </footer>
   );
